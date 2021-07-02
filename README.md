@@ -3,7 +3,7 @@ Sweethome3D Plugin for Home Assistant Export
 
 ## Plugin Installation
 
-Copy the file https://github.com/adizanni/ExportToHASS/blob/main/dist/ExportToHassPlugin.sh3p?raw=true to the Plugin Sweethome directory. In linux this is ~/.eteks/sweethome3d/plugins/
+Copy the file https://github.com/adizanni/ExportToHASS/blob/main/dist/ExportToHassPlugin.sh3p?raw=true to the Plugin Sweethome directory. In linux this is the folder ~/.eteks/sweethome3d/plugins/. In windows just double-click on the sh3p plugin file
 
 ## How to use
 
