@@ -4,6 +4,7 @@ Sweethome3D Plugin for Home Assistant Export to be used together with the floor 
 ## Plugin Installation
 
 Copy the file https://github.com/adizanni/ExportToHASS/blob/main/dist/ExportToHassPlugin.sh3p?raw=true to the Plugin Sweethome directory. In linux this is the folder ~/.eteks/sweethome3d/plugins/. In Windows just double-click on the sh3p plugin file (I've been reported some issues related to this installation method, please follow [this](https://github.com/adizanni/ExportToHASS/issues/1#issuecomment-904966326) procedure instead)
+The plugin binary is currently compiled with SweetHome3d 6.6 and I can only guarantee it working in that version. Starting from this version I will create releases tagged with the SweetHome3d version, so that if you do not want to upgrade your sweethome version, you will stay with the old one that is working for you (of course you will not benefit from the bug fix and new features).
 
 ## How to use
 
