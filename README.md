@@ -14,4 +14,17 @@ Open your model, click on menu 'Tools\Export obj to HASS', choose the  name of t
  
 I have conceived this plugin to workaround the object_id change happening between 2 exports when other objects are removed from the model. This is achieved by using the object name that you will find in the properties of the 3D object in Sweethome3D. Of course the name of the object should be unique in the model (no control yet, this version is still highly rudimentary). If you want an object to group together all the components with a unique name you just append a '#' to the end of the object name. 
 
+### Notes
+  
+this rules establish the characters that are allowed in the object name (plus the '#' that will be removed by the export): this is because of waterfront format standard":
+  
+```java
+if (!(car >= 'a' && car <= 'z'
+|| car >= 'A' && car <= 'Z'
+|| car >= '0' && car <= '9'
+|| car == '_' ) {
+return false;
+}
+```
+                         
 Give feedback.
